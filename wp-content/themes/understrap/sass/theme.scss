@@ -1,0 +1,68 @@
+@import "theme/theme_variables";  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
+@import "assets/bootstrap4";// <--------- Loads Bootstrap3 or Bootstrap4. Change from /bootstrap3 to /bootstrap4 Watch out! just for testing in the moment!
+@import "understrap/understrap";// <-------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
+
+//Optional files - If you dont use the corresponding scripts/fonts comment em out
+@import "assets/font-awesome"; // <------- Font Awesome Icon font
+@import "assets/underscores"; // <------- Underscores media styles
+
+// Any additional imported files //
+@import "theme/theme";  // <--------- Thats where you can add your own design. Thats your part!
+@import "theme/contact-form7"; // contact form 7 - Bootatrap 4 support
+
+.entry-title {
+  display:none !important;
+}
+.col-sm-4 {
+  float: left;
+
+}
+.col-sm-6{
+  float:left;
+}
+
+.imgbikewizard{
+  width:100px;
+  margin: 25px;
+}
+#honeycombimg{
+  width:70px;
+}
+.imgcolourbikewizard{
+  width:10%;
+  margin:10px;
+}
+.tablecontent{
+  display:block;
+  margin:20px;
+  min-width: 750px;
+  margin-top:150px;
+
+}
+.tablecontent table{
+  margin:auto;
+
+}
+
+.tablecontent td {
+  max-width:230px;
+font-size: 12px;
+  margin:10px;
+  padding:10px;
+
+}
+.tablecontent td h4 {
+  margin:20px;
+  font-size: 15px;
+}
+.bikenote{
+  margin-top:200px;
+  display:block;
+  min-width:500px;
+}
+.imgbullitwizard {
+  width:80%;
+}
+.fa-shopping-basket{
+  margin:10px;
+}

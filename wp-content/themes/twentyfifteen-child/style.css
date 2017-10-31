@@ -1,0 +1,36 @@
+/*
+ Theme Name:     Twentyfifteen Child Theme
+ Theme URI:      #####
+ Description:    Twentyfifteen Child Theme
+ Author:         Ebbe Vang
+ Author URI:     ####
+ Template:       Twentyfifteen
+ Version:        0.0.1
+*/
+
+@import url("../twentyfifteen/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+body
+{
+    background: #bcbcbc;
+    color: #b81b2a;
+}
+
+
+#childTemplateFooterText
+{
+    color: #2d8ac7;
+}
+.entry-footer
+{
+    background: #00bfb6;
+}
+
+.entry-footer {
+    background: #b81b2a;
+}
+p{
+    color: black;
+}
